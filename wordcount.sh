@@ -13,3 +13,4 @@ for file in "$directory"/*.txt; do
   ((total_words += $(wc -w < "$file")))
 done
 echo "Total word count for all '.txt' files in '$directory': $total_words"
+
